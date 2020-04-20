@@ -1,0 +1,11 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>add-card</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item *ngFor="let merch of merchants" (click)="addCard(merch.Name,merch.Website,merch.ImagePath)">{{merch.Name}}</ion-item>
+  <hr/>
+  <ion-button (click)="addMerchant()">Add Merchant</ion-button>
+</ion-content>

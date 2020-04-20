@@ -1,5 +1,7 @@
 {
   "name": "Cardi_App",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

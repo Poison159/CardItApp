@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title color="primary">CardIt | Register</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-content>
+      <ion-input position="floating" placeholder="Email" [(ngModel)]="email"></ion-input>
+      <ion-input type="password" position="floating" placeholder="Password" [(ngModel)]="password"></ion-input>
+      <ion-input type="password" position="floating" placeholder="Confirm Password" [(ngModel)]="confirmPassword"></ion-input>
+      <ion-button  expand="full" (click)="Register()"><p style="zoom:1.4">Register </p></ion-button>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
